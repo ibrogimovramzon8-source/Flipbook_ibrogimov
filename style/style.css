@@ -43,6 +43,20 @@ body {
     animation: show-animate 2s forwards;
 }
 
+@media (max-width: 768px) {
+    .profile-page h1 {
+        font-size: 2rem;
+    }
+    .profile-page h3 {
+        font-size: 1rem;
+    }
+    .btn {
+        width: 8rem;
+        height: 2.5rem;
+        font-size: 0.8rem;
+    }
+}
+
 @keyframes show-animate {
     0%,
     30% {
